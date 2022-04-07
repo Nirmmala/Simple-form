@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(171, 194, 119);
+            }
+            table{
+                border: 2px solid black;
+                background-color: green;
+            }
+            h2{
+                color: red;
+            }
+            .button{
+                color: aliceblue;
+                background-color: orange;
+                display:inline-block;
+            }
+                
+                
+        
+        </style>
+        
+
+    </head>
+
+    <body>
+        <form action="">
+            <h2>Personal Details</h2>
+            Enter your name: <input type="text" name=" first name" placeholder="Enter full name"><br><br>
+            Enter password: <input type="password" name="password" placeholder="Password"><br><br>
+            Enter your Emailid: <input type="text" name=" email"placeholder="Email" ><br><br>
+    
+            Gender: <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="male">male
+    
+            <h2>Educational Qualification</h2>
+    
+            Degree: <select name="Degree" aria-placeholder="select group">
+                <option value="diplom">Diploma</option>
+                <option value="BE">Bechlor of Enginnering</option>
+                
+            </select><br><br>
+            Engineering: <select name="Degree" aria-placeholder="select group">
+                <option value="eletronics">Electronics Enginnering</option>
+                <option value="computer">Computer Enginnering</option>
+                <option value="electrical">Electrical Enginnering</option>
+                <option value="mechanical">mechanical Enginnering</option>
+            </select><br><br>
+            Hobbies:<input type="checkbox" name="hobby" value="chess">Playing Chesss
+            <input type="checkbox" name="hobby" value="reading">Reading books
+    
+            <h2>Address</h2>
+            <input type="text" name="address" style="width: 300px;height: 50px;"><br><br>
+    
+            Attach Resume: <input type="file" name="image" multiple><br><br>
+            <input type="button" name="submit" value="Save The Data" class="button">
+        </form>
+    
+       
+        
+
+
+    </body>
+</html>

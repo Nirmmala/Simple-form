@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up Form</title>
+        <style>
+            body{
+            background-image: url(bg.jpg);
+            opacity:0.9;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            
+            h1{
+                text-align: center;color: rgb(9, 12, 15);
+            text-decoration: underline;
+        }
+            table,th,td{
+                background-color: black;
+                color: white;
+                width: 30%;
+                height: 50px;
+                padding: 7px;
+                border: 1px solid rgb(221, 214, 214);
+                border-collapse: collapse;
+                
+            }
+            #header{
+                background-color: yellow;
+                color:rgb(3, 11, 17);
+                font-size: 50px;
+            }
+            #header1{
+                background-color: yellow;
+                color:rgb(3, 11, 17);
+                margin: 5px;
+                font-size:10px;
+            }
+            th, td{
+                color: yellow;
+                text-align: center;
+                
+            
+                
+            }
+   
+            
+        </style>
+
+    </head>
+    <body>
+      
+            <h1><b>Felix ITs sign up Form</b></h1>
+            <table align="center">
+                <tr>
+                    <th colspan="2" id="header">sign up</th>
+                </tr>
+                <tr>
+                    <th >Name:</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <th><input type="date"></th>
+                </tr>
+                <tr>
+                    <th>Mobile no:</th>
+                    <th><input type="number"></th>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <th><input type="Email"></th>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <th><input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="male">male</th>
+                </tr>
+                <tr>
+                    <th>Country:</th>
+                    <th><select name="city" id="">
+                        <option value="America">India</option> 
+                        <option value="America">South africa</option>
+                        <option value="America">Russia</option>                   
+                    </select></th>
+                </tr>
+                <tr>
+                    <th colspan="2" id="header1"><input type="button" value="Submit">
+                        <input type="button" value="Reset"></th>
+                </tr>
+
+            </table>
+
+       
+        
+    </body>
+</html>
